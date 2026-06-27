@@ -38,15 +38,17 @@ export default function Header() {
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">
-          {links.map(l => (
-            
-              key={l.href}
-              href={l.href}
-              className="text-[13px] uppercase tracking-[0.12em] text-white/80 hover:text-white transition-colors"
-            >
-              {l.label}
-            </a>
-          ))}
+          {links.map(l => {
+            return (
+              
+                key={l.href}
+                href={l.href}
+                className="text-[13px] uppercase tracking-[0.12em] text-white/80 hover:text-white transition-colors"
+              >
+                {l.label}
+              </a>
+            )
+          })}
         </nav>
 
         <div className="hidden lg:block">
@@ -77,16 +79,18 @@ export default function Header() {
             className="lg:hidden bg-ink overflow-hidden"
           >
             <nav className="flex flex-col px-6 pb-8 gap-5">
-              {links.map(l => (
-                
-                  key={l.href}
-                  href={l.href}
-                  className="text-white text-base uppercase tracking-wide py-1"
-                  onClick={() => setOpen(false)}
-                >
-                  {l.label}
-                </a>
-              ))}
+              {links.map(l => {
+                return (
+                  
+                    key={l.href}
+                    href={l.href}
+                    className="text-white text-base uppercase tracking-wide py-1"
+                    onClick={() => setOpen(false)}
+                  >
+                    {l.label}
+                  </a>
+                )
+              })}
               
                 href="/contact/"
                 className="mt-3 bg-green text-white text-center text-[13px] font-semibold uppercase tracking-[0.1em] px-6 py-3 rounded-full"
@@ -108,3 +112,4 @@ export function Logo({ light = false }: { light?: boolean }) {
     </span>
   )
 }
+
