@@ -14,13 +14,15 @@ export default function Testimonials() {
             <p className="text-green font-semibold text-sm">★★★★★ {noteMoyenne} — {nombreAvis} avis Google</p>
           </div>
         </Reveal>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {avisReels.map((a, i) => (
-            <Reveal key={i} delay={i * 0.1}>
-              <blockquote className="border border-ink/10 rounded-2xl p-8 h-full">
-                <p className="text-[15px] leading-relaxed text-ink/80 mb-6">"{a.texte}"</p>
-                <footer className="text-xs uppercase tracking-wide text-ink/40">
-                  ★★★★★ Avis Google vérifié — {a.contexte}
+            <Reveal key={i} delay={i * 0.08}>
+              <blockquote className="border border-ink/10 rounded-2xl p-7 h-full flex flex-col">
+                <p className="text-[14px] leading-relaxed text-ink/80 mb-5 flex-1">"{a.texte}"</p>
+                <footer className="text-xs">
+                  <span className="text-green">★★★★★</span>
+                  <span className="block font-semibold text-ink mt-1">{a.auteur}</span>
+                  <span className="block uppercase tracking-wide text-ink/40 text-[10px] mt-0.5">{a.contexte}</span>
                 </footer>
               </blockquote>
             </Reveal>
