@@ -17,7 +17,7 @@ export default function RenovationHub() {
     <>
       <Header />
       <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Rénovation énergétique' }]} />
-      <PageHero eyebrow="Rénovation globale" title="Rénovation énergétique globale" subtitle="Isolation, pompe à chaleur et audit énergétique — un projet clé en main avec aides jusqu'à 80 000€" />
+      <PageHero eyebrow="Rénovation globale" title="Rénovation énergétique globale" <PageHero eyebrow="Rénovation globale" title="Rénovation énergétique globale" subtitle="Isolation et audit énergétique — un projet clé en main avec aides jusqu'à 80 000€" />
 
       <ContentSection>
         <h2>Qu'est-ce qu'une rénovation énergétique globale ?</h2>
