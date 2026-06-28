@@ -42,7 +42,7 @@ export const villes: Ville[] = [
     habitat: "Villas dans la pinède de Valescure, résidences en bord de mer à Agay : chaque secteur de Saint-Raphaël a ses propres contraintes d'isolation que notre équipe évalue lors de la visite technique." },
   { slug: "mandelieu-la-napoule", nom: "Mandelieu-la-Napoule", tier: 2,
     quartiers: "La Napoule, Mandelieu Centre, Le Capitou",
-    climat: "Entre golfs et bord de mer, Mandelieu-la-Napoule bénéficie d'un climat doux toute l'année qui rend les pompes à chaleur particulièrement performantes.",
+    climat: "Entre golfs et bord de mer, Mandelieu-la-Napoule bénéficie d'un climat doux toute l'année climat: "Entre golfs et bord de mer, Mandelieu-la-Napoule bénéficie d'un climat doux toute l'année, ce qui rend l'isolation thermique particulièrement rentable sur le long terme.",
     habitat: "Les villas de standing de la commune gagnent en confort et en valeur grâce à une isolation par l'extérieur soignée, qui préserve l'esthétique des façades en bord de mer." },
   { slug: "villeneuve-loubet", nom: "Villeneuve-Loubet", tier: 2,
     quartiers: "Villeneuve-Loubet Plage, le Village, bord du Loup",
