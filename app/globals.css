@@ -63,4 +63,55 @@ button:focus-visible {
   font-size: 1.1rem;
   font-weight: 600;
   color: #121212;
+}/* ========================= */
+/* GSE PREMIUM DESIGN SYSTEM */
+/* ========================= */
+
+:root {
+  --background: #f7f7f5;
+  --surface: rgba(255,255,255,.78);
+  --surface-solid: #ffffff;
+  --foreground: #121212;
+
+  --green: #3FA66B;
+  --green-dark: #2D8553;
+
+  --border: rgba(18,18,18,.08);
+
+  --shadow-sm: 0 8px 20px rgba(0,0,0,.04);
+  --shadow-md: 0 18px 45px rgba(0,0,0,.08);
+  --shadow-xl: 0 30px 80px rgba(0,0,0,.12);
+
+  --radius: 22px;
+}
+
+.glass {
+  background: rgba(255,255,255,.68);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255,255,255,.35);
+}
+
+.card-premium {
+  border-radius: 28px;
+  background: #fff;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: .45s cubic-bezier(.22,.61,.36,1);
+}
+
+.card-premium:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.btn-premium {
+  border-radius: 999px;
+  padding: 15px 30px;
+  font-weight: 700;
+  transition: .4s;
+}
+
+.btn-premium:hover {
+  transform: translateY(-2px);
 }
