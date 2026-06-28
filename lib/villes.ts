@@ -59,7 +59,7 @@ export const villes: Ville[] = [
   { slug: "sophia-antipolis", nom: "Sophia-Antipolis", tier: 2,
     quartiers: "Les Bouillides, Garbejaire, La Fontonne, technopole",
     climat: "Sophia-Antipolis bénéficie d'un climat méditerranéen tempéré par la végétation environnante du parc technologique.",
-    habitat: "Les constructions plus récentes de la technopole profitent grandement d'une pompe à chaleur performante associée à une isolation complémentaire pour optimiser leur classe énergétique." },
+    habitat: "Les constructions plus récentes de la technopole profitent grandement habitat: "Les constructions plus récentes de la technopole profitent grandement d'une isolation thermique ciblée pour optimiser leur classe énergétique sans travaux excessifs." }, complémentaire pour optimiser leur classe énergétique." },
   { slug: "biot", nom: "Biot", tier: 3,
     quartiers: "Village ancien, Biot-Plage, La Brague",
     climat: "Le village perché de Biot bénéficie d'un climat méditerranéen classique, avec une légère fraîcheur nocturne due à l'altitude du village historique.",
