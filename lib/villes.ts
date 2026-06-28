@@ -18,7 +18,7 @@ export const villes: Ville[] = [
     habitat: "Villas de prestige, résidences de standing et immeubles anciens du Suquet : à Cannes, l'isolation thermique par l'extérieur permet souvent de combiner gain énergétique et rénovation esthétique de la façade." },
   { slug: "antibes", nom: "Antibes", tier: 1,
     quartiers: "Vieille Ville, Cap d'Antibes, Golfe-Juan, Juan-les-Pins",
-    climat: "Antibes bénéficie d'un climat méditerranéen doux, idéal pour les pompes à chaleur air-air qui assurent à la fois chauffage hivernal et climatisation estivale avec une consommation électrique maîtrisée.",
+    climat: "Antibes bénéficie d'un climat méditerranéen doux, climat: "Antibes bénéficie d'un climat méditerranéen doux. Une bonne isolation thermique permet d'y limiter efficacement les besoins de chauffage hivernal comme de rafraîchissement estival.",qui assurent à la fois chauffage hivernal et climatisation estivale avec une consommation électrique maîtrisée.",
     habitat: "Le contraste entre les maisons anciennes du centre historique et les villas du Cap d'Antibes appelle des solutions différentes : isolation par l'intérieur pour préserver le cachet ancien, par l'extérieur pour les constructions plus récentes." },
   { slug: "grasse", nom: "Grasse", tier: 1,
     quartiers: "Centre-ville historique, Châteauneuf, Saint-Jacques, Plascassier",
