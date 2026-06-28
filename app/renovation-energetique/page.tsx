@@ -8,7 +8,7 @@ import ContentSection from '@/components/ContentSection'
 
 export const metadata: Metadata = {
   title: "Rénovation Énergétique — Isolation, PAC, Audit",
-  description: "Rénovation énergétique globale en Alpes-Maritimes et Var : isolation, pompe à chaleur, audit. Aides jusqu'à 80 000€. Devis gratuit.",
+  description: "Rénovation énergétique globale en Alpes-Maritimes et Var : isolation, audit, accompagnement aides. Aides jusqu'à 80 000€. Devis gratuit.", Aides jusqu'à 80 000€. Devis gratuit.",
   alternates: { canonical: '/renovation-energetique/' },
 }
 
