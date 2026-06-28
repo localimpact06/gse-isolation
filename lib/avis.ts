@@ -35,4 +35,4 @@ export const avisReels: Avis[] = [
 
 // Note moyenne réelle constatée sur la fiche Google Business
 export const noteMoyenne = "5/5"
-export const nombreAvis = 6
+export const nombreAvis = 5
