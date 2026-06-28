@@ -26,7 +26,7 @@ export const villes: Ville[] = [
     habitat: "Grasse mélange maisons de parfumeurs anciennes, villas et constructions plus récentes en périphérie, avec des besoins d'isolation variés selon l'altitude et l'exposition de chaque quartier." },
   { slug: "menton", nom: "Menton", tier: 1,
     quartiers: "Vieille Ville, Garavan, Carnolès, Borrigo",
-    climat: "Menton bénéficie du micro-climat le plus doux de toute la Côte d'Azur, abrité par les montagnes environnantes. Les pompes à chaleur air-air y sont particulièrement efficaces, fonctionnant dans des conditions optimales toute l'année.",
+    climat: "Menton bénéficie du micro-climat le plus doux de toute la Côte d'Azur, abrité par les montagnes environnantes. climat: "Menton bénéficie du micro-climat le plus doux de toute la Côte d'Azur, abrité par les montagnes environnantes. Cette douceur permet de limiter fortement les besoins énergétiques d'un logement correctement isolé.", fonctionnant dans des conditions optimales toute l'année.",
     habitat: "Entre la vieille ville aux ruelles étroites et les villas de Garavan, Menton offre une grande variété de configurations qui bénéficient toutes d'un diagnostic énergétique personnalisé." },
   { slug: "cagnes-sur-mer", nom: "Cagnes-sur-Mer", tier: 1,
     quartiers: "Cros-de-Cagnes, Le Haut-de-Cagnes, La Cagne, Les Hauts de Cagnes",
