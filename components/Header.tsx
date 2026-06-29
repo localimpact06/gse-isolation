@@ -123,12 +123,12 @@ export default function Header() {
         <div className="hidden shrink-0 items-center gap-3 lg:flex">
           <motion.a
             href="/contact/"
-            className="relative isolate overflow-hidden rounded-full bg-ink px-5 py-3 text-[12px] font800 uppercase tracking-[0.12em] text-white shadow-[0_14px_34px_rgba(18,18,18,0.18)] transition-colors hover:bg-green-dark xl:px-6"
+            className="relative isolate overflow-hidden rounded-full bg-ink px-5 py-3 text-[12px] font-bold uppercase tracking-[0.12em] text-white shadow-[0_14px_34px_rgba(18,18,18,0.18)] transition-colors hover:bg-green-dark xl:px-6"
             whileHover={{ y: -2, scale: 1.015 }}
             whileTap={{ scale: 0.98 }}
             transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="absolute inset-0 -z-10 bg-[linear-gradient(110deg,transparent,rgba(255,255,255,0.22),transparent)] opacity-0 transition-opacity duration-300 hover:opacity-100" />
+            <span className="absolute inset-0 -z-10 bg-[linear-gradient(110deg,transparent,rgba(255,255,255,0.22),transparent)] opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
             Demander un devis
           </motion.a>
         </div>
@@ -206,9 +206,9 @@ export default function Header() {
   )
 }
 
-export function Logo() {
+export function Logo({ light = false }: { light?: boolean }) {
   return (
-    <span className="inline-flex items-center rounded-2xl bg-white px-2.5 py-1.5 shadow-[0_10px_28px_rgba(0,0,0,0.08)]">
+    <span className={(light ? 'inline-flex' : 'inline-flex') + ' items-center rounded-2xl bg-white px-2.5 py-1.5 shadow-[0_10px_28px_rgba(0,0,0,0.08)]'}>
       <img src="/logo.png" alt="GSE Isolation" width={138} height={63} className="h-9 w-auto sm:h-10" />
     </span>
   )
