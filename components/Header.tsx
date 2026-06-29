@@ -25,7 +25,7 @@ function NavLink(props: { href: string; label: string; light: boolean }) {
       href={props.href}
       className={
         'group relative whitespace-nowrap px-1 py-2 text-[12px] font-semibold uppercase tracking-[0.12em] transition-colors duration-300 ' +
-        (props.light ? 'text-white/78 hover:text-white' : 'text-ink/64 hover:text-ink')
+        (props.light ? 'text-white/80 hover:text-white' : 'text-ink/70 hover:text-ink')
       }
       variants={navItem}
       whileHover={{ y: -1 }}
@@ -47,7 +47,7 @@ function MobileNavLink(props: { href: string; label: string; onClick: () => void
     <motion.a
       href={props.href}
       onClick={props.onClick}
-      className="group flex items-center justify-between border-b border-white/10 py-4 text-[15px] font-semibold uppercase tracking-[0.12em] text-white/86 transition-colors hover:text-white"
+      className="group flex items-center justify-between border-b border-white/10 py-4 text-[15px] font-semibold uppercase tracking-[0.12em] text-white/90 transition-colors hover:text-white"
       variants={{
         initial: { opacity: 0, x: -12 },
         animate: { opacity: 1, x: 0 },
@@ -97,8 +97,8 @@ export default function Header() {
         className={
           'mx-auto flex h-[68px] max-w-7xl items-center justify-between rounded-full border px-4 shadow-[0_18px_55px_rgba(0,0,0,0.12)] transition-colors duration-500 sm:h-[74px] sm:px-5 lg:px-6 ' +
           (solid
-            ? 'border-white/70 bg-white/76 text-ink backdrop-blur-2xl supports-[backdrop-filter]:bg-white/68'
-            : 'border-white/12 bg-ink/12 text-white backdrop-blur-md')
+            ? 'border-white/70 bg-white/75 text-ink backdrop-blur-2xl supports-[backdrop-filter]:bg-white/70'
+            : 'border-white/10 bg-ink/10 text-white backdrop-blur-md')
         }
         initial={{ opacity: 0, y: -18 }}
         animate={{ opacity: 1, y: 0 }}
@@ -123,7 +123,7 @@ export default function Header() {
         <div className="hidden shrink-0 items-center gap-3 lg:flex">
           <motion.a
             href="/contact/"
-            className="relative isolate overflow-hidden rounded-full bg-ink px-5 py-3 text-[12px] font-bold uppercase tracking-[0.12em] text-white shadow-[0_14px_34px_rgba(18,18,18,0.18)] transition-colors hover:bg-green-dark xl:px-6"
+            className="group relative isolate overflow-hidden rounded-full bg-ink px-5 py-3 text-[12px] font-bold uppercase tracking-[0.12em] text-white shadow-[0_14px_34px_rgba(18,18,18,0.18)] transition-colors hover:bg-green-dark xl:px-6"
             whileHover={{ y: -2, scale: 1.015 }}
             whileTap={{ scale: 0.98 }}
             transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
@@ -142,7 +142,7 @@ export default function Header() {
           }}
           className={
             'relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full border transition-colors duration-300 lg:hidden ' +
-            (solid ? 'border-ink/10 bg-ink text-white' : 'border-white/16 bg-white/10 text-white')
+            (solid ? 'border-ink/10 bg-ink text-white' : 'border-white/20 bg-white/10 text-white')
           }
           whileTap={{ scale: 0.94 }}
         >
@@ -166,7 +166,7 @@ export default function Header() {
       <AnimatePresence>
         {open && (
           <motion.div
-            className="mx-auto mt-3 max-w-7xl overflow-hidden rounded-[28px] border border-white/10 bg-ink/96 shadow-[0_24px_70px_rgba(0,0,0,0.24)] backdrop-blur-2xl lg:hidden"
+            className="mx-auto mt-3 max-w-7xl overflow-hidden rounded-[28px] border border-white/10 bg-ink/95 shadow-[0_24px_70px_rgba(0,0,0,0.24)] backdrop-blur-2xl lg:hidden"
             initial={{ opacity: 0, y: -10, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -8, scale: 0.98 }}
