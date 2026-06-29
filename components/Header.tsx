@@ -207,8 +207,10 @@ export default function Header() {
 }
 
 export function Logo({ light = false }: { light?: boolean }) {
+  const shadow = light ? 'shadow-[0_10px_28px_rgba(0,0,0,0.08)]' : 'shadow-[0_8px_22px_rgba(0,0,0,0.06)]'
+
   return (
-    <span className={(light ? 'inline-flex' : 'inline-flex') + ' items-center rounded-2xl bg-white px-2.5 py-1.5 shadow-[0_10px_28px_rgba(0,0,0,0.08)]'}>
+    <span className={'inline-flex items-center rounded-2xl bg-white px-2.5 py-1.5 ' + shadow}>
       <img src="/logo.png" alt="GSE Isolation" width={138} height={63} className="h-9 w-auto sm:h-10" />
     </span>
   )
