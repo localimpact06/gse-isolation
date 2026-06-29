@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: "GSE Isolation — Rénovation énergétique en Alpes-Maritimes",
     template: "%s | GSE Isolation",
   },
-  description: "GSE Isolation : rénovation énergétique complète (isolation, audit, rénovation globale). Aides jusqu'à 80 000€. +100 chantiers réalisés. Devis gratuit.", Aides jusqu'à 80 000€. +100 chantiers réalisés. Devis gratuit.",
+   description: "GSE Isolation : rénovation énergétique complète (isolation, audit, rénovation globale). Aides jusqu'à 80 000€. +100 chantiers réalisés. Devis gratuit.",
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
